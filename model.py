@@ -4,7 +4,7 @@ We base our codebase on the implementation of RawNet2 by Hemlata Tak (tak@eureco
 It is available here: https://github.com/asvspoof-challenge/2021/blob/main/LA/Baseline-RawNet2/model.py
 """
 import torch.nn as nn
-
+#hello world
 
 class Residual_block2D(nn.Module):
     def __init__(self, nb_filts, first=False):
